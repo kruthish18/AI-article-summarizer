@@ -1,98 +1,55 @@
-AI Article Summarizer
-=====================
+# AI Article Summarizer
 
 This is a web application that summarizes articles from a given URL using the OpenAI API. The app is built using React and styled with Tailwind CSS.
 
-Features
---------
+## Features
 
-*   Enter an article URL to get a concise summary.
-    
-*   View a list of previously summarized URLs.
-    
+*  Enter an article URL to get a concise summary.
+*  View a list of previously summarized URLs.
 *   Responsive UI with a clean interface.
-    
 
-Technologies Used
------------------
+## Technologies Used
 
-*   React
-    
-*   Tailwind CSS
-    
-*   OpenAI API
-    
-*   Vite
-    
+* React
+* Tailwind CSS    
+* OpenAI API    
+* Vite
 
-Getting Started
----------------
+## Getting Started
 
 ### Prerequisites
 
-*   Node.js (v18 or later)
-    
-*   An OpenAI API key
-    
+* Node.js (v18 or later)    
+* An OpenAI API key
 
 ### Installation
 
-1.  Clone the repository:
+1. Clone the repository:
+
+    `git clone https://github.com/your-username/AI-article-summarizer.git cd AI-article-summarizer`
     
-    bash
-    
-    CopyEdit
-    
-    `git clone https://github.com/your-username/AI-article-summarizer.git
-    cd AI-article-summarizer` 
-    
-2.  Install dependencies:
-    
-    bash
-    
-    CopyEdit
-    
-    `npm install` 
-    
+2. Install dependencies:
+
+    `npm install`
+
 3.  Create a `.env` file in the root directory and add your OpenAI API key:
-    
-    ini
-    
-    CopyEdit
-    
-    `VITE_OPENAI_API_KEY=your_api_key_here` 
-    
+
+    `VITE_OPENAI_API_KEY=your_api_key_here`
+ 
 4.  Start the development server:
-    
-    bash
-    
-    CopyEdit
-    
-    `npm run dev` 
-    
-5.  Open your browser and go to `http://localhost:5173`.
-    
 
-Project Structure
------------------
+    `npm run dev`
 
-graphql
+5.  Open your browser and go to `http://localhost:5173`.   
 
-CopyEdit
 
-`src/
-├── assets/           # Images and logos
-├── components/       # Reusable React components
-├── services/         # API logic for OpenAI
-├── App.jsx           # Main application file
-├── index.js          # Entry point
-├── main.jsx          # App initialization` 
+## Project Structure
 
-Future Improvements
--------------------
+`src/ ├── assets/           # Images and logos ├── components/       # Reusable React components ├── services/         # API logic for OpenAI ├── App.jsx           # Main application file ├── index.js          # Entry point ├── main.jsx          # App initialization`
 
-*   Support for summarizing text from uploaded files
-    
-*   User login and saved summaries
-    
-*   Multi-language summarization
+
+## Future Improvements
+
+* Support for summarizing text from uploaded files
+* User login and saved summaries
+* Multi-language summarization
