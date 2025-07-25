@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", () => {
-  // Load saved API key if it exists
+  //Load saved API key if it exists
   chrome.storage.sync.get(["geminiApiKey"], (result) => {
     if (result.geminiApiKey) {
       document.getElementById("api-key").value = result.geminiApiKey;
